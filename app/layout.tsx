@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { headers } from "next/headers";
-import "./globals.css";
 import "./source.css";
+import "./globals.css";
 
 export async function generateMetadata(): Promise<Metadata> {
   const requestHeaders = await headers();
@@ -13,8 +13,8 @@ export async function generateMetadata(): Promise<Metadata> {
 
   return {
     title: {
-      default: "Architectural Aluminium Systems",
-      template: "%s | Architectural Aluminium Systems",
+      default: "Phoenix Architecture & Aluminium Inc.",
+      template: "%s | Phoenix Architecture & Aluminium Inc.",
     },
     description:
       "World-standard aluminium curtain wall, door, window, partition and sliding systems.",
@@ -29,6 +29,11 @@ export async function generateMetadata(): Promise<Metadata> {
       title: "World Class Aluminum Systems",
       description: "Aesthetic. Durable. High-performance.",
       images: [`${origin}/og.png`],
+    },
+    icons: {
+      icon: "/favicon.png",
+      shortcut: "/favicon.png",
+      apple: "/favicon.png",
     },
   };
 }

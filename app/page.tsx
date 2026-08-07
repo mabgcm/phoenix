@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import { LegacyPage } from "./LegacyPage";
 
 export const metadata: Metadata = {
-  title: "Architectural Aluminium Systems",
+  title: "Phoenix Architecture & Aluminium Inc.",
   description:
     "World-standard aluminium curtain wall, door, window, partition and sliding systems.",
 };

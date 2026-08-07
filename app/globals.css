@@ -19,32 +19,33 @@ body {
   color: var(--foreground);
 }
 
-.brand-placeholder {
+.brand-logo {
   display: block;
-  width: 176px;
-  height: 62px;
+  width: 235px;
+  height: 82px;
+  object-fit: contain;
 }
 
-.headerLogo .brand-placeholder {
-  width: 190px;
-  height: 66px;
+.headerLogo img.brand-logo {
+  width: 245px;
+  height: 84px;
 }
 
-.mmLogo .brand-placeholder {
-  width: 180px;
-  height: 64px;
+.mmLogo img.brand-logo {
+  width: 220px;
+  height: 82px;
 }
 
-.footerLogo .brand-placeholder,
-footer .brand-placeholder {
-  width: 190px;
-  height: 72px;
+.footerLogo img.brand-logo,
+footer img.brand-logo {
+  width: 250px;
+  height: 105px;
 }
 
 @media (max-width: 900px) {
-  .brand-placeholder,
-  .headerLogo .brand-placeholder {
-    width: 120px;
-    height: 48px;
+  .brand-logo,
+  .headerLogo img.brand-logo {
+    width: 160px;
+    height: 58px;
   }
 }

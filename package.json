@@ -14,7 +14,6 @@
     "db:generate": "drizzle-kit generate"
   },
   "dependencies": {
-    "@rolldown/binding-darwin-arm64": "^1.2.3",
     "drizzle-orm": "0.45.2",
     "next": "16.2.6",
     "react": "19.2.6",
@@ -38,5 +37,8 @@
     "vite": "8.0.13",
     "wrangler": "4.92.0"
   },
-  "type": "module"
+  "type": "module",
+  "optionalDependencies": {
+    "@rolldown/binding-darwin-arm64": "^1.2.3"
+  }
 }
